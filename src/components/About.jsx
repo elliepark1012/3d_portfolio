@@ -49,7 +49,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl
         leading-[30px]"
-      > Are you working heheh
+      > Dynamic Software Engineer with expertise in developing high-performance web applications and robust backend solutions. Skilled in full-stack development, responsive design, and seamless API integration. Fluent in Mandarin, French, and Korean, I’m passionate about crafting user-friendly digital experiences that make life easier. Outside of coding, you’ll find me surfing waves, running marathons, or dreaming up my next big project!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

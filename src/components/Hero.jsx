@@ -18,9 +18,10 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             안녕, I'm <span className='text-[#915EFF]'>Ellie</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+          <p className={`${styles.heroSubText} mt-2 text-white-100 text-[10px]`}>
+          Building sleek, high-performance web experiences that make an impact. Fluent in code, design, and a few human languages (Mandarin, French, Korean)—I craft solutions that stand out. 
+          <br className='sm:block hidden' />
+          Let’s collaborate and bring amazing ideas to life!
           </p>
         </div>
       </div>

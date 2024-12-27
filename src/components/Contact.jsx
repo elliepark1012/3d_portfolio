@@ -7,6 +7,7 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';  
 import { slideIn } from '../utils/motion';
 import Earth from './canvas/Earth';
+import { linkedinLogo, instagramLogo } from "../assets";
 
 // template_z99jb5f
 // service_p75p6a6
@@ -64,12 +65,31 @@ const Contact = () => {
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse
     flex gap-10 overflow-hidden'>
+
+      
       <motion.div
         variants={slideIn('left', "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl">
       <p className={styles.sectionSubText}>Get in touch</p>
       <h3 className={styles.sectionHeadText}>Contact.</h3>
-
+      <div className='flex items-center gap-4'>
+          <a href='https://www.linkedin.com/in/ellieparkny/' target='_blank' rel='noopener noreferrer'>
+            <img
+              src={linkedinLogo}
+              alt='LinkedIn'
+              className='w-6 h-6 object-contain'
+              style={{ borderRadius: '80%' }}
+            />
+          </a>
+          <a href='https://www.instagram.com/p.elliecherie/' target='_blank' rel='noopener noreferrer'>
+            <img
+              src={instagramLogo}
+              alt='Instagram'
+              className='w-6 h-6 object-contain'
+              style={{ borderRadius: '80%' }}
+            />
+          </a>
+        </div>
       <form
         ref={formRef}
         onSubmit={handleSubmit}
@@ -121,6 +141,7 @@ const Contact = () => {
           {loading ? 'Sending...' : 'Send'}
         </button>
       </form>   
+
       </motion.div>
 
       <motion.div
@@ -129,6 +150,8 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
+
+      
 
     </div>
   )
