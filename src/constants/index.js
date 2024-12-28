@@ -1,8 +1,10 @@
+import { isCompositeComponentWithType } from "react-dom/test-utils";
 import {
     mobile,
     backend,
     creator,
     web,
+    apple,
     javascript,
     typescript,
     html,
@@ -15,14 +17,12 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    kita,
+    y2s,
   } from "../assets";
   
   export const navLinks = [
@@ -113,58 +113,70 @@ import {
       icon: docker,
     },
   ];
+
+//   Camera and Photos Lab Infrastructure Engineer 	      06/2024 - Present
+// Apple, Inc. 	       Cupertino, CA
+// Maintained and optimized macOS agents and over 700 devices, ensuring peak functionality and operational efficiency.
+// Debugged and enhanced Ansible playbooks, supporting CI/CD pipeline maintenance and ensuring system reliability through rigorous weekly testing.
+// Conducted detail-oriented feature testing, effectively communicating with developers on root issues and reproduction steps, particularly with development board iOS devices for power and performance.
+// Improved user engagement by 30% through secure API integration and streamlined workflows in the Remote Studio device registration system, incorporating integrated search, meta tags, and global themes to enhance design and user experience.
+// Business Expert 	      09/2022 - 06/2024
+// Apple, Inc. 	       Manhattan, NY
+// Developed in-store content for new hire education and product training videos, enhancing customer engagement by 6% and showcasing technical expertise in Apple products.
+// Fostered strong relationships with business customers, leading to 106 new accounts and a 45% account conversion rate through consistent service.
+// Purchasing Analyst & IT Support	      03/2020 - 08/2022
+// Y2s Trading	       Manhattan, NY
+// Managed technical infrastructure and administered online purchasing systems and reports using QuickBooks and Excel, with an emphasis on network security and device management.
+// Ensured robust network security measures and optimized device management through Microsoft Intune to enhance purchasing operations.
+// Expo Project Associate Manager	12/2018 - 03/2020
+// Korean International Trade Association 	      Seoul, South Korea
+// Organized, budgeted, and scheduled 17 overseas exhibitions for marketing and sales(SEO), provided services for
+// translation in Bangkok, Shanghai, Seoul and Tokyo, and facilitated 45 businesses for MOU with oversea markets.
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Camera and Photos Lab Infrastructure Engineer",
+      company_name: "Apple",
+      icon: apple,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jun 2024 - Dec 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Maintained and optimized macOS agents and over 700 devices, ensuring peak functionality and operational efficiency.",
+        "Debugged and enhanced Ansible playbooks, supporting CI/CD pipeline maintenance and ensuring system reliability through rigorous weekly testing.",
+        "Conducted detail-oriented feature testing, effectively communicating with developers on root issues and reproduction steps, particularly with development board iOS devices for power and performance.",
+        "Improved user engagement by 30% through secure API integration and streamlined workflows in the Remote Studio device registration system, incorporating integrated search, meta tags, and global themes to enhance design and user experience.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Apple Technical Support Expert",
+      company_name: "Apple",
+      icon: apple,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Sep 2022 - Jun 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+          "Developed in-store content for new hire education and product training videos, enhancing customer engagement by 6% and showcasing technical expertise in Apple products.",
+          "Fostered strong relationships with business customers, leading to 106 new accounts and a 45% account conversion rate through consistent service and techincal support."
+      ],
+    },
+    {
+      title: "Purchasing Analyst & IT Support",
+      company_name: "Y2S",
+      icon: y2s,
+      iconBg: "#ffffff",
+      date: "Mar 2020 - Aug 2022",
+      points: [
+        "Managed technical infrastructure and administered online purchasing systems and reports using QuickBooks and Excel, with an emphasis on network security and device management.",
+        "Ensured robust network security measures and optimized device management through Microsoft Intune to enhance purchasing operations." ],
+    },
+    {
+      title: "Expo Project Associate Manager",
+      company_name: "KITA",
+      icon: kita,
+      iconBg: "#ffffff",
+      date: "Dec 2018 - Mar 2020",
+      points: [
+        "Assisting small Korean businesses to export overseas markets via trade shows and E-commerce.",
+        "Organizing, budgeting, scheduling overseas exhibition, especially for marketing, translating to English, Chinese and French as a Global Trade Expert Incubating Program Leader."
       ],
     },
   ];
