@@ -22,14 +22,13 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import python from "./tech/python.png";
 import apple from "./apple.svg";
 import kita from "./kita.png";
 import y2s from "./y2s.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import cremedelacreme from "./cremedelacreme.png";
+import surfree from "./surfree.png";
+import giveashout from "./giveashout.png";
 
 export {
   logo,
@@ -53,9 +52,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
+  python,
+  cremedelacreme,
+  giveashout,
+  surfree,
   linkedinLogo,
   instagramLogo,
   apple,

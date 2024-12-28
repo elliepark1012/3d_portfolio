@@ -10,17 +10,17 @@ import {
     html,
     css,
     reactjs,
-    redux,
+    python,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
     docker,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    surfree,
+    giveashout,
+    cremedelacreme,
     kita,
     y2s,
   } from "../assets";
@@ -61,6 +61,10 @@ import {
   
   const technologies = [
     {
+      name: "Python",
+      icon: python,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -79,10 +83,6 @@ import {
     {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -114,25 +114,6 @@ import {
     },
   ];
 
-//   Camera and Photos Lab Infrastructure Engineer 	      06/2024 - Present
-// Apple, Inc. 	       Cupertino, CA
-// Maintained and optimized macOS agents and over 700 devices, ensuring peak functionality and operational efficiency.
-// Debugged and enhanced Ansible playbooks, supporting CI/CD pipeline maintenance and ensuring system reliability through rigorous weekly testing.
-// Conducted detail-oriented feature testing, effectively communicating with developers on root issues and reproduction steps, particularly with development board iOS devices for power and performance.
-// Improved user engagement by 30% through secure API integration and streamlined workflows in the Remote Studio device registration system, incorporating integrated search, meta tags, and global themes to enhance design and user experience.
-// Business Expert 	      09/2022 - 06/2024
-// Apple, Inc. 	       Manhattan, NY
-// Developed in-store content for new hire education and product training videos, enhancing customer engagement by 6% and showcasing technical expertise in Apple products.
-// Fostered strong relationships with business customers, leading to 106 new accounts and a 45% account conversion rate through consistent service.
-// Purchasing Analyst & IT Support	      03/2020 - 08/2022
-// Y2s Trading	       Manhattan, NY
-// Managed technical infrastructure and administered online purchasing systems and reports using QuickBooks and Excel, with an emphasis on network security and device management.
-// Ensured robust network security measures and optimized device management through Microsoft Intune to enhance purchasing operations.
-// Expo Project Associate Manager	12/2018 - 03/2020
-// Korean International Trade Association 	      Seoul, South Korea
-// Organized, budgeted, and scheduled 17 overseas exhibitions for marketing and sales(SEO), provided services for
-// translation in Bangkok, Shanghai, Seoul and Tokyo, and facilitated 45 businesses for MOU with oversea markets.
-  
   const experiences = [
     {
       title: "Camera and Photos Lab Infrastructure Engineer",
@@ -210,58 +191,58 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Creme de la creme",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed and deployed a responsive web app using Node.js for restaurant reviews, implemented JWT for authentication, utilized AWS S3 for secure storage, and designed a dynamic React frontend integrating RESTful APIs for enhanced functionality.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "AWS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "RESTfulAPI",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: cremedelacreme,
+      source_code_link: "https://github.com/elliepark1012/cremedelacreme",
     },
     {
-      name: "Job IT",
+      name: "Give A Shout",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Created a volunteer event listing app with Rails API and React, featuring a responsive UI designed with CSS, managed relational data with SQL, and integrated RESTful APIs for efficient backend operations.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "rubyonrails",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "sql",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: giveashout,
+      source_code_link: "https://github.com/elliepark1012/giveashout",
     },
     {
-      name: "Trip Guide",
+      name: "Surfree",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Surfree is a React app built entirely with JavaScript, free of jQuery dependencies, leveraging Google Maps and shop websites to provide a comprehensive surfing booking platform where users can search and filter surf shops and pricing.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
@@ -269,8 +250,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: surfree,
+      source_code_link: "https://github.com/elliepark1012/surfree",
     },
   ];
   
